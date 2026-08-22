@@ -1,6 +1,6 @@
 1. We are going to have a contract controlled by a DAO
 2. Every txs that the DAO wants to send has to be voted on 
-3. 
+3. We will iuse ERC20votes tokens for voting here
 
 
 
