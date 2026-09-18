@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: MIT
-// Compatible with OpenZeppelin Contracts ^5.7.0
+// Compatible with OpenZeppelin Contracts ^5.7.0 
 pragma solidity ^0.8.27;
 
 import {Governor} from "@openzeppelin/contracts/governance/Governor.sol";
 import {TimelockController} from "@openzeppelin/contracts/governance/TimelockController.sol";
 import {GovernorCountingSimple} from "@openzeppelin/contracts/governance/extensions/GovernorCountingSimple.sol";
 import {GovernorSettings} from "@openzeppelin/contracts/governance/extensions/GovernorSettings.sol";
-import {GovernorTimelockControl} from "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol";
-import {GovernorVotes} from "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol";
+import {GovernorTimelockControl,TimelockController} from "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol";
+import {GovernorVotes, IVotes} from "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol";
 import {GovernorVotesQuorumFraction} from "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol";
 import {IVotes} from "@openzeppelin/contracts/governance/utils/IVotes.sol";
 
